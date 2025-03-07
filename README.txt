@@ -1,0 +1,7 @@
+Team: Will Canup, Adam Azmi, Joseph Aycock, Hudson Martin
+
+We were able to get our string literals, operators, punctuators, and most of our keywords to work. The string literals is what gave us the hardest time, we needed help from a post on stack overflow to help us figure it out. 
+
+While most of our keywords work properly, a few of them don't return with their proper ID and instead just return as "ID". We tried finding resources on stack overflow but were unsuccessful and even after resorting to chatGPT we were unable to fix these particular keywords. We also had a similar issue with characters and the "'" punctuator and even when using the same methods mentioned above we were unable to fix it. 
+
+We suspect that at some point we encountered a bug affecting how our .lex was being read because changes made to it wouldn't appear in our output. Even when we deleted all the contents of the .lex file the output would remain exactly the same as before the .lex file was cleared. We were unable to determine what was causing this. We tried ensuring that our class path was configured correctly and rewatched the set up videos on moodle multiple times but this proved to be ineffective in fixing this error. 
