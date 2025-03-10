@@ -1,5 +1,5 @@
 package Absyn;
-import Symbol.Symbol;
+
 public class OpExp extends Exp {
    public Exp left, right;
    public int oper;
